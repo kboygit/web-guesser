@@ -19,7 +19,7 @@ def check_guess(guess)
 		elsif guess.to_i > @@secret_number
       "Too high!"
     elsif guess.to_i == @@secret_number
-      "You've got it right! The secret number is #{@@secret_number}."
+      # "You've got it right! The secret number is #{@@secret_number}."
     elsif guess.to_i < @@secret_number - 5
       "Way too low!"
  		elsif guess.to_i < @@secret_number
@@ -38,6 +38,7 @@ def set_color(message)
 		when "Way too low!" then return "red"
 		when "Too high!" then "tan"
 		when "Too low!" then "tan"
-		when "You've got it right! The secret number is #{@@secret_number}." then "green"
+		# when "You've got it right! The secret number is #{@@secret_number}." then "green"
+  when "You've got it right! The secret number is #{@@secret_number}.Play again!!!" then "green"
 	end
 end
