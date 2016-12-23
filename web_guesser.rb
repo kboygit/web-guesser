@@ -4,5 +4,5 @@ require "sinatra/reloader"
 X = rand(100)
 
 get '/' do
-  "The secret number is #{X}"
+  "The SECRET NUMBER is #{X}"
 end
