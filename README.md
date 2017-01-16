@@ -9,3 +9,12 @@ It will:
 - Correct
 - Too low
 - Way too low
+
+
+Getting started:
+
+- Clone this repository to your local machine
+- cd into it
+- type ruby web_guesser.rb on your terminal
+- open localhost:4567 on your browser
+- then your set.
